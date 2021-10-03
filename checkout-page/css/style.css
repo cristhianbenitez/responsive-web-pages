@@ -283,6 +283,12 @@ input[type='checkbox'] {
   width: 95%;
   justify-content: flex-end;
 }
+.succeed {
+  text-align: center;
+}
+.success-submit h2 {
+  margin: 5em 0;
+}
 /* Author */
 .author {
   font-size: 0.875rem;
