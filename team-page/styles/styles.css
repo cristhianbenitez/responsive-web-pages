@@ -1,0 +1,143 @@
+/* Variables */
+:root {
+  --ff-ptserif: 'PT Serif', serif;
+  --ff-poppins: 'Poppins', sans-serif;
+}
+
+/* General Styles */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: var(--ff-poppins);
+}
+img {
+  max-width: 100%;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Body Styles */
+
+/* Header */
+.header {
+  margin-left: 1.3em;
+}
+.header_title {
+  font-family: var(--ff-ptserif);
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin: 1em 0;
+  letter-spacing: -0.04em;
+}
+
+.header-content_subtitle {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+.header-content_description {
+  line-height: 31px;
+  font-size: 1.2rem;
+  margin-bottom: 4em;
+}
+
+/* Team Photos */
+.team-photos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 7em;
+  justify-content: center;
+  align-content: center;
+}
+
+.team-photos_item {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+}
+.row-1 {
+  display: flex;
+}
+.row-2 {
+  display: flex;
+}
+.column-2 {
+  margin-top: 3em;
+}
+
+.team-photos_item-position {
+  margin: 3.5em -4em;
+}
+.team-photos_item-position p {
+  width: 150px;
+  font-size: 0.7rem;
+  font-family: var(--ff-ptserif);
+  text-transform: uppercase;
+  transform: rotate(90deg);
+}
+
+.team-photos_item-name {
+  margin: 0.2em 0;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+/* Footer */
+
+.footer_content {
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: 700;
+  color: #a9a9a9;
+}
+
+/* Desktop Media Query */
+@media (min-width: 500px) {
+  .header {
+    margin: 2em;
+    display: flex;
+    justify-content: space-around;
+  }
+  .header_title {
+    font-size: 2.8rem;
+  }
+  .header-content {
+    width: 439px;
+    margin-top: 2em;
+  }
+  .header-content_subtitle {
+    font-size: 1.6rem;
+  }
+  .header-content_description {
+    font-size: 1.3rem;
+  }
+
+  .team-photos_item {
+    width: 25%;
+    margin-left: 4em;
+  }
+  .middle-column {
+    margin-top: 9em;
+  }
+  .team-photos_item-position {
+    margin: 3.1em -3.2em;
+  }
+  .team-photos_item-position p {
+    width: 150px;
+    font-size: 1rem;
+  }
+  .team-photos_item-name {
+    font-size: 1.5rem;
+  }
+  .footer_content {
+    font-size: 1.2rem;
+  }
+}
