@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+}
+/* General Styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+/* font-family: 'Playfair Display', serif; */
+
+img {
+  width: 100%;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+input {
+  width: 21px;
+  height: 21px;
+}
+.orange-icon {
+  color: #f2994a;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+.header__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.header__text p {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #4f4f4f;
+  font-style: italic;
+}
+.estimations__item-title {
+  font-size: 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #bdbdbd;
+}
+.estimations__item-text {
+  font-size: 0.625rem;
+}
+.ingredients__title {
+  font-size: 1.125rem;
+}
+.ingredients__subtitle {
+  font-weight: 400;
+  font-size: 1rem;
+  font-style: italic;
+}
+.ingredients__list-item-text {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.font-weigth-500 {
+  font-weight: 500;
+}
+.instructions p {
+  font-size: 1rem;
+}
+.aknowledge p,
+.aknowledge a {
+  color: #bdbdbd;
+  font-size: 0.75rem;
+  margin: 0.3em 0;
+  font-style: italic;
+}
+.author {
+  font-size: 0.875rem;
+  text-align: center;
+  font-weight: 500;
+}
+.author a {
+  text-decoration: underline;
+}
+@media (min-width: 500px) {
+  .header__title {
+    font-size: 3rem;
+  }
+  .header__text p {
+    font-size: 0.875rem;
+  }
+  .ingredients__title {
+    font-size: 1.5rem;
+  }
+  .ingredients__subtitle {
+    font-size: 1.125rem;
+  }
+  .estimations__item-title {
+    font-size: 0.75rem;
+  }
+  .estimations__item-text {
+    font-size: 0.875rem;
+  }
+  .ingredients__title {
+    font-size: 1.5rem;
+  }
+  .ingredients__subtitle {
+    font-size: 1.125rem;
+  }
+  .ingredients__list-item-text {
+    font-size: 1rem;
+  }
+}
+
+/* Icons */
+.instructions__step-icon {
+  width: 36px;
+  height: 36px;
+  background: #f2994a;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 6px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.drag-indicator {
+  transform: rotate(90deg);
+  color: #c4c4c4;
+}
+
+/* Layout */
+.container {
+  margin: 0.719em;
+}
+
+.header__text {
+  display: flex;
+}
+.header__text p {
+  margin: 0 0.5em;
+}
+.header_image {
+  margin-top: 2em;
+  object-fit: cover;
+}
+.estimations {
+  display: flex;
+  flex-direction: column;
+}
+.estimations .top-content {
+  margin-top: 1em;
+}
+.estimations .bottom-content {
+  display: flex;
+  margin-top: 1em;
+}
+.estimations__item {
+  display: flex;
+  margin-right: 2em;
+  align-items: center;
+}
+
+.estimations__item-text {
+  margin-left: 0.725em;
+}
+.estimations__item-text h4 {
+  margin: 0em;
+}
+.estimations__item-text p {
+  margin: 0.2em 0;
+}
+.ingredients__title {
+  margin-top: 2em;
+}
+.ingredients__subtitle {
+  margin-top: 1em;
+}
+.ingredients__list-item {
+  margin: 0.5em 0;
+  display: flex;
+}
+.ingredients__list-item-text {
+  margin-left: 0.5em;
+}
+.instructions__step {
+  display: flex;
+  margin-top: 1em;
+}
+.instructions__step-icon {
+  width: 10%;
+}
+.instructions__step-text {
+  margin-left: 0.75em;
+  width: 90%;
+}
+.aknowledge {
+  margin-top: 2em;
+}
+.author {
+  margin-top: 7em;
+}
+@media (min-width: 500px) {
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .header__text {
+    width: 63%;
+  }
+  .middle-page {
+    display: flex;
+    justify-content: space-between;
+  }
+  .estimations {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    height: 100%;
+    width: 20%;
+    margin-top: 4em;
+    align-items: center;
+  }
+  .estimations .top-content,
+  .estimations .bottom-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .estimations__item {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-top: 2em;
+    justify-content: center;
+  }
+  .last-item {
+    margin-bottom: 2em;
+  }
+  .recipe-info {
+    order: 1;
+    width: 60%;
+  }
+  .instructions__step-icon {
+    width: 7%;
+  }
+  .aknowledge {
+    display: flex;
+  }
+  .aknowledge p {
+    margin-right: 0.5em;
+  }
+}
