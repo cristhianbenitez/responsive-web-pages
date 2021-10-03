@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Checkout Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title" id="title">Checkout</h1>
+
+      <main id="main">
+        <section class="checkout">
+          <div class="checkout__item">
+            <img
+              src="images/photo1.png"
+              alt="backpack"
+              class="checkout__item-image"
+            />
+            <div class="checkout__item-information">
+              <div class="top-content">
+                <h3 class="item-information__name">Vintage Backbag</h3>
+                <span class="item-information__price">$54.99</span>
+                <span class="item-information__prev-price">$94.99</span>
+              </div>
+              <div class="checkout__item-quantity">
+                <i class="material-icons remove-icon" id="remove-1"> remove </i>
+                <input type="text" id="item-quantity-1" />
+                <i class="material-icons add-icon" id="add-1"> add </i>
+              </div>
+            </div>
+          </div>
+          <div class="checkout__item">
+            <img
+              src="images/photo2.png"
+              alt="levi shoes"
+              class="checkout__item-image"
+            />
+            <div class="checkout__item-information">
+              <div class="top-content">
+                <h3 class="item-information__name">Levi Shoes</h3>
+                <span class="item-information__price">$74.99</span>
+                <span class="item-information__prev-price">$124.99</span>
+              </div>
+              <div class="checkout__item-quantity">
+                <i class="material-icons remove-icon" id="remove-2"> remove </i>
+                <input type="text" id="item-quantity-2" />
+                <i class="material-icons add-icon" id="add-2"> add </i>
+              </div>
+            </div>
+          </div>
+          <div class="checkout__shipping">
+            <span class="checkout__shipping-text">Shipping</span>
+            <span class="checkout__shipping-price">$19</span>
+          </div>
+          <div class="checkout__total">
+            <span class="checkout__total-text">Total</span>
+            <span class="checkout__total-amount" id="total">$148.98</span>
+          </div>
+        </section>
+        <form action="/" id="form">
+          <section class="contact-info">
+            <h2 class="contact-info__title">Contact Information</h2>
+            <div class="contact-info__email">
+              <label for="email">E-mail </label>
+              <div class="input-container">
+                <i class="icon"> email </i>
+                <input
+                  type="email "
+                  id="email"
+                  placeholder="Enter your  email..."
+                  required
+                />
+              </div>
+            </div>
+            <div class="contact-info__phone">
+              <label for="phone">Phone </label>
+              <div class="input-container">
+                <i class="icon"> phone </i>
+                <input
+                  type="tel"
+                  id="phone"
+                  placeholder="Enter your phone ..."
+                  required
+                />
+              </div>
+            </div>
+          </section>
+          <section class="shipping-address">
+            <h2 class="shipping-address__title">Shipping Address</h2>
+            <div class="shipping-address__name">
+              <label for="name">Full Name</label>
+              <div class="input-container">
+                <i class="icon">account_circle</i>
+                <input
+                  type="text"
+                  placeholder="Your name..."
+                  id="name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="shipping-address__address">
+              <label for="address">Address</label>
+              <div class="input-container">
+                <i class="icon">home</i>
+                <input
+                  type="text"
+                  placeholder="Your address..."
+                  id="address"
+                  required
+                />
+              </div>
+            </div>
+            <div class="shipping-address__city">
+              <label for="city">City</label>
+              <div class="input-container">
+                <i class="icon">location_city</i>
+                <input
+                  type="city"
+                  placeholder="Your city..."
+                  id="city"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-bottom-content">
+              <div class="shipping-address__country">
+                <label for="country">Country</label>
+                <div class="input-container">
+                  <i class="icon">location_city</i>
+                  <select id="country" required>
+                    <option value="" disabled selected hidden>
+                      Your country...
+                    </option>
+                    <option value="United States">United States</option>
+                    <option value="United Kingdom">United Kingdon</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Spain">Spain</option>
+                  </select>
+                </div>
+              </div>
+              <div class="shipping-address__postal">
+                <label for="postal">Postal code</label>
+                <div class="input-container">
+                  <i class="icon">markunread_mailbox</i>
+                  <input
+                    type="text"
+                    placeholder="Your postal code..."
+                    id="postal"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="shipping-address__save-info">
+            <label
+              ><input type="checkbox" /> Save this information for next
+              time</label
+            >
+          </div>
+          <div class="button-container">
+            <button class="continue-buttom" type="submit" id="submit">
+              Continue
+            </button>
+          </div>
+        </form>
+      </main>
+      <footer>
+        <div class="author">
+          <p>
+            created by
+            <a href="https://github.com/cristhianbenitez" class="author__name"
+              >Cristhian Benitez</a
+            >
+            - devChallenges.io
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
