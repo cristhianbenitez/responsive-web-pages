@@ -1,0 +1,320 @@
+/* General Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #f2f2f2;
+  border-radius: 12px;
+}
+img {
+  max-width: 100%;
+}
+.wrapper {
+  margin: 0 auto;
+  padding: 3em 12.75em;
+  min-width: 1440px;
+  max-width: 1240px;
+}
+
+/* Typography */
+.about-me__name {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+.about-me__position {
+  font-size: 1.125rem;
+  color: #828282;
+}
+.about-me__email {
+  font-size: 1.125rem;
+  color: #4f4f4f;
+}
+.about-me__phone {
+  font-size: 1.125rem;
+  color: #4f4f4f;
+}
+.about-me__text p {
+  font-size: 1.125rem;
+  color: #828282;
+}
+.technologies__title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #4f4f4f;
+}
+.technologies__item-name {
+  color: #4f4f4f;
+  font-size: 1rem;
+  font-size: 500;
+}
+.certificates__title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #4f4f4f;
+}
+.certificates__hobbie {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.certificates__description {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #828282;
+}
+.certificates__description a,
+.certificates__description a:visited {
+  color: #2f80ed;
+  text-decoration: none;
+}
+.projects-header__title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.project__title {
+  font-weight: 500;
+}
+.project__text {
+  font-size: 1rem;
+  color: #828282;
+}
+/* Layout */
+.main-left-column,
+.main-right-column {
+  display: flex;
+  flex-direction: column;
+}
+.main-left-column {
+  width: 40%;
+  margin-right: 2em;
+}
+.main-right-column {
+  width: 60%;
+}
+.main-middle-page {
+  display: flex;
+}
+.about-me {
+  display: flex;
+  padding: 1em 1.5em;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 15px 15px -20px #333333;
+}
+.about-me__picture {
+  width: 30%;
+  margin-right: 2em;
+}
+.about-me__picture img {
+  margin: 0;
+  object-fit: cover;
+  width: 271.86px;
+  height: 266.14px;
+  border-radius: 12px;
+}
+.about-me__info {
+  width: 70%;
+}
+.about-me__info .top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-me__name {
+  margin: 0;
+}
+.about-me__position {
+  margin-top: 0.25em;
+}
+.about-me__email {
+  display: flex;
+  margin: 0;
+}
+.about-me__email i,
+.about-me__phone i {
+  margin-right: 0.5em;
+  color: #4f4f4f;
+}
+.about-me__phone {
+  margin-top: 0.25em;
+  display: flex;
+}
+
+.about-me__text {
+  margin-top: 1em;
+}
+.about-me__text p {
+  margin: 1em 0;
+  line-height: 21.94px;
+}
+
+.technologies {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 15px 15px -20px #333333;
+  margin-top: 6em;
+  padding: 1em 1.5em;
+}
+
+.technologies__list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+.technologies__item {
+  margin-top: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.technologies__item-name {
+  margin-right: 1em;
+}
+.technologies__item-bar {
+  width: 60%;
+  height: 9px;
+  background: #c4c4c4;
+  border-radius: 12px;
+  z-index: 1;
+}
+.technologies__bar-percentage {
+  background: #2f80ed;
+  z-index: 2;
+  border-radius: 12px;
+  height: 100%;
+}
+.technologies__item-bar .item-1 {
+  width: 75%;
+}
+.technologies__item-bar .item-2 {
+  width: 80%;
+}
+.technologies__item-bar .item-3 {
+  width: 70%;
+}
+.technologies__item-bar .item-4 {
+  width: 55%;
+}
+.technologies__item-bar .item-5 {
+  width: 50%;
+}
+
+.certificates {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 15px 15px -20px #333333;
+  margin-top: 2em;
+  padding: 1.5em 1em;
+}
+.certificates__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5em;
+}
+.certificates__item:first-child {
+  margin-top: 0;
+}
+.certificates__item {
+  margin-top: 2em;
+}
+.certificates__image {
+  width: 383px;
+  height: 139px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.certificates__hobbie {
+  margin-top: 0.75em;
+  display: block;
+}
+.certificates__description {
+  margin-top: 0.75em;
+}
+.projects-header {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 15px 15px -20px #333333;
+  margin-top: 3em;
+  padding: 1.5em 1em;
+}
+
+.project {
+  display: flex;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 15px 15px -20px #333333;
+  margin-top: 2em;
+  padding: 1.5em 1.5em;
+}
+.project__image {
+  width: 100%;
+  margin-right: 2em;
+}
+.project__image img {
+  object-fit: cover;
+  object-position: top;
+  width: 322px;
+  height: 274px;
+  border-radius: 12px;
+}
+.project__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.project__hashtags span {
+  margin-right: 0.5em;
+}
+.project__title {
+  margin-top: 1.5em;
+}
+
+.project__text {
+  margin-top: 1em;
+}
+.project__buttons {
+  display: flex;
+}
+.project__link {
+  text-decoration: none;
+  margin-top: 2em;
+  margin-right: 1em;
+  border: 1px solid #2f80ed;
+  border-radius: 12px;
+  padding: 0.5em 1.75em;
+  height: 100%;
+}
+.project__link:hover,
+.project__link:focus {
+  transform: scale(1.1);
+}
+.project__buttons .demo {
+  background: #2f80ed;
+  color: #ffffff;
+}
+.project__buttons .demo:hover,
+.project__buttons .demo:focus {
+  background: #ffffff;
+  color: #2f80ed;
+}
+.project__buttons .code {
+  color: #2f80ed;
+}
+.project__buttons .code:hover,
+.project__buttons .code:focus {
+  background: #2f80ed;
+  color: #ffffff;
+}
