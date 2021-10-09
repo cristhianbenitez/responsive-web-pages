@@ -12,6 +12,6 @@
 
 Created with HTML and CSS
 
-## [Figma File](https://www.figma.com/file/HHzg6Ywq8jamFTB0J4iXKM/my-gallery-challenge)
+## [Challenge](https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I)
 
 ## [Live Version](http://recipe-page-cristhian.surge.sh/)

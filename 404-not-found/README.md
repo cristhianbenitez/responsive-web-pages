@@ -8,6 +8,6 @@
 
 Created with HTML and CSS
 
-## [Figma File](https://www.figma.com/file/QeKWLNhB13zDjJzqR22TKE)
+## [Challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY)
 
 ## [Live Version](http://404-not-found-challenge.surge.sh/)

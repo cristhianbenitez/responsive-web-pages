@@ -18,6 +18,6 @@
 
 Created with HTML , CSS and JS
 
-## [Figma File](https://www.figma.com/file/4B0x88GhiZvgVlcQPSQ73D/checkout-page-challenge)
+## [Challenge](https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO)
 
 ## [Live Version](http://checkout-page-challenge.surge.sh/)

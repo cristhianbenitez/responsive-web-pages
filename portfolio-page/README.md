@@ -16,7 +16,7 @@
 
 Created with HTML and CSS
 
-## [Figma File](https://www.figma.com/file/O7Omgz2iVR7Vox7shf7O8e/portfolio)
+## [Challenge](https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt)
 
 ## [Live Version](http://my-portfolio-page.surge.sh/)
 

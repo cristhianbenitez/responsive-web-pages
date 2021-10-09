@@ -12,6 +12,6 @@
 
 Created with HTML and CSS
 
-## [Figma File](https://www.figma.com/file/ahnGupP4JjTdVJDTRfMRF2/edie-homepage)
+## [Challenge](https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0)
 
 ## [Live Version](http://edie-homepage-challenge.surge.sh/)

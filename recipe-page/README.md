@@ -10,6 +10,6 @@
 
 created with HTML and CSS
 
-## [Figma File](https://www.figma.com/file/2jVBTSKeCYF0dIN6fi0stX/recipe-blog-challenge?node-id=0%3A1)
+## [Challenge](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht)
 
 ## [Live Version](http://recipe-page-cristhian.surge.sh/)

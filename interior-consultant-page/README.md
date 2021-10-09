@@ -12,6 +12,6 @@
 
 Created with HTML and CSS
 
-## [Figma File](https://www.figma.com/file/3cf83hHRBAGjG5EKPcG2bV/interior-consultant-challenge)
+## [Challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb)
 
 ## [Live Version](http://responsive-project.surge.sh/#home)
